@@ -3,7 +3,7 @@
 *properties
 *gradlew
 build.gradle
-setting.gradle
+settings.gradle
 /local.properties
 /.gradle
 /.idea
