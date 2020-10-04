@@ -6,8 +6,6 @@ import android.os.IBinder
 import android.util.Log
 import kotlin.math.pow
 
-const val COR = 10.0
-
 class CalculationService: Service() {
 
 
@@ -26,7 +24,7 @@ class CalculationService: Service() {
     private fun calculation (N: Int) : String {
         var pi = 0.0
         var sign = 1 // определение знака
-        val eps = COR.pow(-7) // точность/
+        val eps = 10.pow(-7) // точность
         var i = 0
         do
         {
