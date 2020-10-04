@@ -24,7 +24,7 @@ class CalculationService: Service() {
     private fun calculation (N: Int) : String {
         var pi = 0.0
         var sign = 1 // определение знака
-        val eps = 10.pow(-7) // точность
+        val eps = 10.0.pow(-7) // точность
         var i = 0
         do
         {
