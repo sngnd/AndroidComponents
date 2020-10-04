@@ -2,8 +2,6 @@
 *.log
 *properties
 *gradlew
-build.gradle
-setting.gradle
 /local.properties
 /.gradle
 /.idea
